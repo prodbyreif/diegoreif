@@ -30,15 +30,16 @@ a{
     padding: 60px 0;
     margin: 0 10px;
 }
-.container{
+/* .container{
     max-width: 1200px;
     margin: 0 auto;
     display: block;
-}
+} */
 .name{
     color: rgba(255, 255, 255, 0.692);
     letter-spacing: 5px;
     font-size: 35px;
+    font-family: 'Roboto Condensed', sans-serif; 
 }
 .jedi{
     
@@ -62,7 +63,7 @@ a{
     color: rgba(212, 234, 255, 0.788)
 
 }
-.navbar{
+/* .navbar{
     background-color: rgb(20, 12, 4);
     width: 100%;
     box-sizing: border-box;
@@ -83,7 +84,7 @@ a{
     
     box-shadow: 0 5px 5px rgba(255, 255, 255, 0.548);
     
-}
+} */
 .image-home{
     width: 100%;
     max-height: 1000px;
@@ -180,6 +181,12 @@ body{
     /* display: inline-block; */
     /* border: 1px solid white; */
 }
+#project-section-summary{
+    /* margin-bottom: 60px; */
+    font-size: 42px;
+    letter-spacing: 5px;
+}
+
 .project-container{
     
     display: flex;
@@ -232,12 +239,7 @@ h3{
     border: 1px solid white;
 
 }
-#project-section-summary{
-    margin-bottom: 60px;
-}
-#project-section-summary p{
-    padding-right: 40em;
-}
+
 
 #frostThis-container{
     background-color: #F20089;;
@@ -256,4 +258,16 @@ h3{
 }
 
 
+.card, .card img{
+    border-radius: 20px 20px;
+}
+.card-body{
+    color: rgba(212, 234, 255, 0.788)
+}
 
+.card{
+    mix-blend-mode: exclusion;
+}
+.card:hover{
+    mix-blend-mode: normal;
+}
