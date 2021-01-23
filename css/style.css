@@ -20,6 +20,7 @@ h2{
     font-family: 'DM Serif Display', serif;
     font-size: 42px;
     color: rgba(255, 255, 255, 0.692);
+    letter-spacing: 5px;
 }
 a{
     text-decoration: none;
